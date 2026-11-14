@@ -1,0 +1,7 @@
+id,name,row_x,row_y,pave_x,pave_y,parking_x,parking_y,bike_x,bike_y,class_x,class_y,freight_route,transit_stop,emergency_route,canopy_pct,env_burden_pctile,collisions_5yr,bike_gap,lat,lon,data_source,notes
+S01,SAMPLE 1 - wide collector crossing (synthetic),24,22,14.6,12.2,2.4,2.4,none,none,collector,local,false,true,false,6,92,9,85,,,SYNTHETIC PLACEHOLDER,Replace with a real measured intersection
+S02,SAMPLE 2 - freight corridor junction (synthetic),26,24,16.0,13.4,2.4,0,none,none,arterial,collector,true,false,true,4,95,12,90,,,SYNTHETIC PLACEHOLDER,Freight route - truck access must be preserved
+S03,SAMPLE 3 - narrow local streets (synthetic),15,15,9.0,9.0,2.0,2.0,none,none,local,local,false,false,false,14,70,2,60,,,SYNTHETIC PLACEHOLDER,Too tight for a roundabout
+S04,SAMPLE 4 - residential with school nearby (synthetic),20,20,12.0,12.0,2.4,2.4,painted,none,local,local,false,false,false,9,78,4,70,,,SYNTHETIC PLACEHOLDER,
+S05,SAMPLE 5 - collector with painted bike lane (synthetic),22,20,13.0,11.0,0,0,painted,none,collector,local,false,true,false,18,64,6,40,,,SYNTHETIC PLACEHOLDER,
+S06,SAMPLE 6 - missing data example (synthetic),21,21,12.5,12.5,2.4,2.4,none,none,local,local,false,false,false,,88,,,,,SYNTHETIC PLACEHOLDER,Shows how missing indicators are flagged
