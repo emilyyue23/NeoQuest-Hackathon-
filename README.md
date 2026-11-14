@@ -6,10 +6,13 @@ It is a concept tool for discussion, not an engineering design or traffic study.
 ## Quick start
 
 ```bash
-pip install -r requirements.txt
-streamlit run app.py          # interactive demo
-python -m ecoequity.evals     # evaluation panel (19 checks)
+python3 -m venv .venv && source .venv/bin/activate     # Windows: .venv\Scripts\activate
+python -m pip install -r requirements.txt
+python -m streamlit run app.py          # interactive demo
+python -m ecoequity.evals               # evaluation panel (19 checks)
 ```
+
+Bedrock mode only: `python -m pip install -r requirements-bedrock.txt` (Python 3.10+).
 
 The demo runs with **no AWS credentials** using a deterministic offline planner. See "Amazon Bedrock mode" below.
 

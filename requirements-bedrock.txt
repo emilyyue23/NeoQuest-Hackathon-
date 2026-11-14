@@ -1,0 +1,3 @@
+# Optional: only for Amazon Bedrock agent mode (needs Python 3.10+)
+strands-agents
+boto3
